@@ -1,5 +1,5 @@
 {
-  "name": "js-macros",
+  "name": "js.macro",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zongzi531/js-macros.git"
+    "url": "git+https://github.com/zongzi531/js.macro.git"
   },
   "keywords": [
     "js",
@@ -18,9 +18,9 @@
   "author": "zongzi531",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/zongzi531/js-macros/issues"
+    "url": "https://github.com/zongzi531/js.macro/issues"
   },
-  "homepage": "https://github.com/zongzi531/js-macros#readme",
+  "homepage": "https://github.com/zongzi531/js.macro#readme",
   "dependencies": {
     "babel-plugin-macros": "^3.1.0"
   },
