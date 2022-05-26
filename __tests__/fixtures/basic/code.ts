@@ -1,4 +1,4 @@
-import { define } from '../../../src/index.macro'
+import { define } from '../../js.macro'
 
 define`
   @a:1;

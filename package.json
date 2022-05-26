@@ -1,9 +1,12 @@
 {
   "name": "@zong/js.macro",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Macro in JavaScript powered by Babel.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "dev": "tsup --watch src",
     "build": "tsup",
     "test": "jest"
   },

@@ -4,7 +4,7 @@ module.exports = {
   testEnvironment: 'node',
   modulePathIgnorePatterns: [
     '.history',
-    '__tests__/index.spec.ts',
+    '__tests__/js.macro.ts',
     '__tests__/fixtures/',
   ],
 };
