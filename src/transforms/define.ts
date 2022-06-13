@@ -5,9 +5,7 @@ const CONST_SYMBOL = '@'
 const CONST_NAME_REGEXP = /(@)([a-zA-z_]+)(:)/
 const VALUE_REGEXP = /(:)(\S+);/
 
-type DefineArray = [t.VariableDeclaration['kind'], string | any, string | any]
-
-
+type DefineArray = [t.VariableDeclaration['kind'], string | t.LVal, string | t.Expression]
 
 const getCurrentStacksIndex = (defineStacks: Array<DefineArray>, loc = 0): number => {
   for (const index in defineStacks) {
