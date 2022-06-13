@@ -1,4 +1,4 @@
-import macro from '../dist'
-export * from '../dist'
+import macro from '../src'
+export * from '../src'
 
 export default macro
