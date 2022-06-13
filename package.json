@@ -1,6 +1,6 @@
 {
   "name": "@zong/js.macro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Macro in JavaScript powered by Babel.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
